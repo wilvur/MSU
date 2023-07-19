@@ -1,0 +1,558 @@
+[
+  {
+    "title": "Iron Man",
+    "movie_ID": "tt0371746",
+    "year": 2008,
+    "ranking": 7.9,
+    "universo": "MARVEL"
+  },
+  {
+    "title": "The Incredible Hulk",
+    "movie_ID": "tt0800080",
+    "year": 2008,
+    "ranking": 6.7,
+    "universo": "MARVEL"
+  },
+  {
+    "title": "Iron Man 2",
+    "movie_ID": "tt1228705",
+    "year": 2010,
+    "ranking": 7.0,
+    "universo": "MARVEL"
+  },
+  {
+    "title": "Thor",
+    "movie_ID": "tt0800369",
+    "year": 2011,
+    "ranking": 7.0,
+    "universo": "MARVEL"
+  },
+  {
+    "title": "Captain America: The First Avenger",
+    "movie_ID": "tt0458339",
+    "year": 2011,
+    "ranking": 6.9,
+    "universo": "MARVEL"
+  },
+  {
+    "title": "The Avengers",
+    "movie_ID": "tt0848228",
+    "year": 2012,
+    "ranking": 8.0,
+    "universo": "MARVEL"
+  },
+  {
+    "title": "Iron Man 3",
+    "movie_ID": "tt1300854",
+    "year": 2013,
+    "ranking": 7.1,
+    "universo": "MARVEL"
+  },
+  {
+    "title": "Thor: The Dark World",
+    "movie_ID": "tt1981115",
+    "year": 2013,
+    "ranking": 6.9,
+    "universo": "MARVEL"
+  },
+  {
+    "title": "Captain America: The Winter Soldier",
+    "movie_ID": "tt1843866",
+    "year": 2014,
+    "ranking": 7.7,
+    "universo": "MARVEL"
+  },
+  {
+    "title": "Guardians of the Galaxy",
+    "movie_ID": "tt2015381",
+    "year": 2014,
+    "ranking": 8.0,
+    "universo": "MARVEL"
+  },
+  {
+    "title": "Avengers: Age of Ultron",
+    "movie_ID": "tt2395427",
+    "year": 2015,
+    "ranking": 7.3,
+    "universo": "MARVEL"
+  },
+  {
+    "title": "Ant-Man",
+    "movie_ID": "tt0478970",
+    "year": 2015,
+    "ranking": 7.3,
+    "universo": "MARVEL"
+  },
+  {
+    "title": "Captain America: Civil War",
+    "movie_ID": "tt3498820",
+    "year": 2016,
+    "ranking": 7.8,
+    "universo": "MARVEL"
+  },
+  {
+    "title": "Doctor Strange",
+    "movie_ID": "tt1211837",
+    "year": 2016,
+    "ranking": 7.5,
+    "universo": "MARVEL"
+  },
+  {
+    "title": "Guardians of the Galaxy Vol. 2",
+    "movie_ID": "tt3896198",
+    "year": 2017,
+    "ranking": 7.6,
+    "universo": "MARVEL"
+  },
+  {
+    "title": "Spider-Man: Homecoming",
+    "movie_ID": "tt2250912",
+    "year": 2017,
+    "ranking": 7.4,
+    "universo": "MARVEL"
+  },
+  {
+    "title": "Thor: Ragnarok",
+    "movie_ID": "tt3501632",
+    "year": 2017,
+    "ranking": 7.9,
+    "universo": "MARVEL"
+  },
+  {
+    "title": "Black Panther",
+    "movie_ID": "tt1825683",
+    "year": 2018,
+    "ranking": 7.3,
+    "universo": "MARVEL"
+  },
+  {
+    "title": "Avengers: Infinity War",
+    "movie_ID": "tt4154756",
+    "year": 2018,
+    "ranking": 8.4,
+    "universo": "MARVEL"
+  },
+  {
+    "title": "Ant-Man and The Wasp",
+    "movie_ID": "tt5095030",
+    "year": 2018,
+    "ranking": 7.1,
+    "universo": "MARVEL"
+  },
+  {
+    "title": "Captain MARVEL",
+    "movie_ID": "tt4154664",
+    "year": 2019,
+    "ranking": 6.9,
+    "universo": "MARVEL"
+  },
+  {
+    "title": "Avengers: Endgame",
+    "movie_ID": "tt4154796",
+    "year": 2019,
+    "ranking": 8.4,
+    "universo": "MARVEL"
+  },
+  {
+    "title": "Spider-Man: Far From Home",
+    "movie_ID": "tt6320628",
+    "year": 2019,
+    "ranking": 7.5,
+    "universo": "MARVEL"
+  },
+  {
+    "title": "Black Widow",
+    "movie_ID": "tt3480822",
+    "year": 2021,
+    "ranking": 6.8,
+    "universo": "MARVEL"
+  },
+  {
+    "title": "Shang-Chi and the Legend of the Ten Rings",
+    "movie_ID": "tt9376612",
+    "year": 2021,
+    "ranking": 7.3,
+    "universo": "MARVEL"
+  },
+  {
+    "title": "Eternals",
+    "movie_ID": "tt9032400",
+    "year": 2021,
+    "ranking": 6.9,
+    "universo": "MARVEL"
+  },
+  {
+    "title": "Spider-Man: No Way Home",
+    "movie_ID": "tt10872600",
+    "year": 2021,
+    "ranking": 8.8,
+    "universo": "MARVEL"
+  }
+,
+  {
+    "title": "Man of Steel",
+    "movie_ID": "tt0770828",
+    "year": 2013,
+    "ranking": 7.0,
+    "universo": "DC"
+  },
+  {
+    "title": "Batman v Superman: Dawn of Justice",
+    "movie_ID": "tt2975590",
+    "year": 2016,
+    "ranking": 6.4,
+    "universo": "DC"
+  },
+  {
+    "title": "Suicide Squad",
+    "movie_ID": "tt1386697",
+    "year": 2016,
+    "ranking": 6.0,
+    "universo": "DC"
+  },
+  {
+    "title": "Wonder Woman",
+    "movie_ID": "tt0451279",
+    "year": 2017,
+    "ranking": 7.4,
+    "universo": "DC"
+  },
+  {
+    "title": "Justice League",
+    "movie_ID": "tt0974015",
+    "year": 2017,
+    "ranking": 6.2,
+    "universo": "DC"
+  },
+  {
+    "title": "Aquaman",
+    "movie_ID": "tt1477834",
+    "year": 2018,
+    "ranking": 6.9,
+    "universo": "DC"
+  },
+  {
+    "title": "Shazam!",
+    "movie_ID": "tt0448115",
+    "year": 2019,
+    "ranking": 7.0,
+    "universo": "DC"
+  },
+  {
+    "title": "Birds of Prey",
+    "movie_ID": "tt7713068",
+    "year": 2020,
+    "ranking": 6.1,
+    "universo": "DC"
+  },
+  {
+    "title": "Wonder Woman 1984",
+    "movie_ID": "tt7126948",
+    "year": 2020,
+    "ranking": 5.4,
+    "universo": "DC"
+  },
+  {
+    "title": "Zack Snyder's Justice League",
+    "movie_ID": "tt12361974",
+    "year": 2021,
+    "ranking": 8.1,
+    "universo": "DC"
+  },
+  {
+    "title": "XMEN",
+    "movie_ID": "tt0120903",
+    "year": 2000,
+    "ranking": 7.4,
+    "universo": "XMEN"
+    },
+    {
+      "title": "X2: XMEN United",
+      "movie_ID": "tt0290334",
+      "year": 2003,
+      "ranking": 7.4,
+      "universo": "XMEN"
+    },
+    {
+      "title": "XMEN: The Last Stand",
+      "movie_ID": "tt0376994",
+      "year": 2006,
+      "ranking": 6.7,
+      "universo": "XMEN"
+    },
+    {
+      "title": "XMEN Origins: Wolverine",
+      "movie_ID": "tt0458525",
+      "year": 2009,
+      "ranking": 6.6,
+      "universo": "XMEN"
+    },
+    {
+      "title": "XMEN: First Class",
+      "movie_ID": "tt1270798",
+      "year": 2011,
+      "ranking": 7.7,
+      "universo": "XMEN"
+    },
+    {
+      "title": "The Wolverine",
+      "movie_ID": "tt1430132",
+      "year": 2013,
+      "ranking": 6.7,
+      "universo": "XMEN"
+    },
+    {
+      "title": "XMEN: Days of Future Past",
+      "movie_ID": "tt1877832",
+      "year": 2014,
+      "ranking": 7.9,
+      "universo": "XMEN"
+    },
+    {
+      "title": "Deadpool",
+      "movie_ID": "tt1431045",
+      "year": 2016,
+      "ranking": 8.0,
+      "universo": "XMEN"
+    },
+    {
+      "title": "XMEN: Apocalypse",
+      "movie_ID": "tt3385516",
+      "year": 2016,
+      "ranking": 6.9,
+      "universo": "XMEN"
+    },
+    {
+      "title": "Logan",
+      "movie_ID": "tt3315342",
+      "year": 2017,
+      "ranking": 8.1,
+      "universo": "XMEN"
+    },
+    {
+      "title": "Deadpool 2",
+      "movie_ID": "tt5463162",
+      "year": 2018,
+      "ranking": 7.7,
+      "universo": "XMEN"
+    },
+    {
+      "title": "Dark Phoenix",
+      "movie_ID": "tt6565702",
+      "year": 2019,
+      "ranking": 5.7,
+      "universo": "XMEN"
+    },
+    {
+      "title": "The New Mutants",
+      "movie_ID": "tt4682266",
+      "year": 2020,
+      "ranking": 5.3,
+      "universo": "XMEN"
+    },
+    {
+        "title": "SW: Episode IV - A New Hope",
+        "movie_ID": "tt0076759",
+        "year": 1977,
+        "ranking": 8.6,
+        "universo": "SW"
+      },
+      {
+        "title": "SW: Episode V - The Empire Strikes Back",
+        "movie_ID": "tt0080684",
+        "year": 1980,
+        "ranking": 8.7,
+        "universo": "SW"
+      },
+      {
+        "title": "SW: Episode VI - Return of the Jedi",
+        "movie_ID": "tt0086190",
+        "year": 1983,
+        "ranking": 8.3,
+        "universo": "SW"
+      },
+      {
+        "title": "SW: Episode I - The Phantom Menace",
+        "movie_ID": "tt0120915",
+        "year": 1999,
+        "ranking": 6.5,
+        "universo": "SW"
+      },
+      {
+        "title": "SW: Episode II - Attack of the Clones",
+        "movie_ID": "tt0121765",
+        "year": 2002,
+        "ranking": 6.5,
+        "universo": "SW"
+      },
+      {
+        "title": "SW: Episode III - Revenge of the Sith",
+        "movie_ID": "tt0121766",
+        "year": 2005,
+        "ranking": 7.5,
+        "universo": "SW"
+      },
+      {
+        "title": "SW: Episode VII - The Force Awakens",
+        "movie_ID": "tt2488496",
+        "year": 2015,
+        "ranking": 7.8,
+        "universo": "SW"
+      },
+      {
+        "title": "Rogue One: A SW Story",
+        "movie_ID": "tt3748528",
+        "year": 2016,
+        "ranking": 7.8,
+        "universo": "SW"
+      },
+      {
+        "title": "SW: Episode VIII - The Last Jedi",
+        "movie_ID": "tt2527336",
+        "year": 2017,
+        "ranking": 7.0,
+        "universo": "SW"
+      },
+      {
+        "title": "Solo: A SW Story",
+        "movie_ID": "tt3778644",
+        "year": 2018,
+        "ranking": 6.9,
+        "universo": "SW"
+      },
+      {
+        "title": "SW: Episode IX - The Rise of Skywalker",
+        "movie_ID": "tt2527338",
+        "year": 2019,
+        "ranking": 6.5,
+        "universo": "SW"
+      },
+      {
+        "title": "SW: The Clone Wars",
+        "movie_ID": "tt1185834",
+        "year": 2008,
+        "ranking": 5.9,
+        "universo": "SW"
+      },
+      {
+          "title": "The Lord of the Rings: The Fellowship of the Ring",
+          "movie_ID": "tt0120737",
+          "year": 2001,
+          "ranking": 8.8,
+          "universo": "LOTR"
+        },
+        {
+          "title": "The Lord of the Rings: The Two Towers",
+          "movie_ID": "tt0167261",
+          "year": 2002,
+          "ranking": 8.7,
+          "universo": "LOTR"
+        },
+        {
+          "title": "The Lord of the Rings: The Return of the King",
+          "movie_ID": "tt0167260",
+          "year": 2003,
+          "ranking": 8.9,
+          "universo": "LOTR"
+        },
+        {
+          "title": "The Hobbit: An Unexpected Journey",
+          "movie_ID": "tt0903624",
+          "year": 2012,
+          "ranking": 7.8,
+          "universo": "LOTR"
+        },
+        {
+          "title": "The Hobbit: The Desolation of Smaug",
+          "movie_ID": "tt1170358",
+          "year": 2013,
+          "ranking": 7.8,
+          "universo": "LOTR"
+        },
+        {
+          "title": "The Hobbit: The Battle of the Five Armies",
+          "movie_ID": "tt2310332",
+          "year": 2014,
+          "ranking": 7.4,
+          "universo": "LOTR"
+        },
+          {
+            "title": "Harry Potter and the Sorcerer's Stone",
+            "movie_ID": "tt0241527",
+            "year": 2001,
+            "ranking": 7.6,
+            "universo": "HP"
+          },
+          {
+            "title": "Harry Potter and the Chamber of Secrets",
+            "movie_ID": "tt0295297",
+            "year": 2002,
+            "ranking": 7.4,
+            "universo": "HP"
+          },
+          {
+            "title": "Harry Potter and the Prisoner of Azkaban",
+            "movie_ID": "tt0304141",
+            "year": 2004,
+            "ranking": 7.9,
+            "universo": "HP"
+          },
+          {
+            "title": "Harry Potter and the Goblet of Fire",
+            "movie_ID": "tt0330373",
+            "year": 2005,
+            "ranking": 7.7,
+            "universo": "HP"
+          },
+          {
+            "title": "Harry Potter and the Order of the Phoenix",
+            "movie_ID": "tt0373889",
+            "year": 2007,
+            "ranking": 7.5,
+            "universo": "HP"
+          },
+          {
+            "title": "Harry Potter and the Half-Blood Prince",
+            "movie_ID": "tt0417741",
+            "year": 2009,
+            "ranking": 7.6,
+            "universo": "HP"
+          },
+          {
+            "title": "Harry Potter and the Deathly Hallows: Part 1",
+            "movie_ID": "tt0926084",
+            "year": 2010,
+            "ranking": 7.7,
+            "universo": "HP"
+          },
+          {
+            "title": "Harry Potter and the Deathly Hallows: Part 2",
+            "movie_ID": "tt1201607",
+            "year": 2011,
+            "ranking": 8.1,
+            "universo": "HP"
+          },
+          {
+            "title": "Fantastic Beasts and Where to Find Them",
+            "movie_ID": "tt3183660",
+            "year": 2016,
+            "ranking": 7.3,
+            "universo": "HP"
+          },
+          {
+            "title": "Fantastic Beasts: The Crimes of Grindelwald",
+            "movie_ID": "tt4123430",
+            "year": 2018,
+            "ranking": 6.6,
+            "universo": "HP"
+          },
+          {
+            "title": "Fantastic Beasts: The Secrets of Dumbledore",
+            "movie_ID": "tt4123432",
+            "year": 2022,
+            "ranking": 0.0,
+            "universo": "HP"
+          }
+        ]
+
+

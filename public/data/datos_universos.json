@@ -1,0 +1,32 @@
+[
+    {
+        "id":"DC",
+        "descripcion":"DC Comics",
+        "img": "dc.jpg"
+    },
+    {
+        "id":"MARVEL",
+        "descripcion":" Marvel Comics",
+        "img": "dc.jpg"
+    },
+    {
+        "id":"SW",
+        "descripcion":"Stars Wars",
+        "img": "dc.jpg"
+    },
+    {
+        "id":"HP",
+        "descripcion":"Harry Potter",
+        "img": "dc.jpg"
+    },
+    {
+        "id":"LOTR",
+        "descripcion":"El Señor de los Anillos",
+        "img": "dc.jpg"
+    },
+    {
+        "id":"XMEN",
+        "descripcion":"X-MEN",
+        "img": "dc.jpg"
+    }
+]

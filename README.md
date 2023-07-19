@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Proyecto MOVIES SIX UNIVERSE (MSU) - Comparación de Actores en Películas de Universos Cinematográficos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto, también conocido como Movies Six Universe (MSU), utiliza datos de películas de los universos cinematográficos de DC Comics, MARVEL, Stars Wars, Harry Potter, El Señor de los Anillos y X-MEN para comparar información sobre los actores. La información se obtiene mediante técnicas de web scraping y se almacena en un archivo JSON para su posterior procesamiento y comparación.
 
-## Available Scripts
+## Objetivo
 
-In the project directory, you can run:
+El objetivo principal de este proyecto es analizar y comparar los datos de los actores en las películas de los universos cinematográficos mencionados anteriormente. Se recopila información como los nombres de los actores, sus roles en las películas y otros detalles relevantes.
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Obtención de datos: El proyecto utiliza técnicas de web scraping para obtener información sobre las películas y los actores de las bases de datos de IMDb. Los datos recopilados se almacenan en un archivo JSON para su posterior procesamiento y comparación.
+- Comparación de actores: Se realiza un análisis de los datos obtenidos para comparar a los actores en términos de su participación en diferentes universos cinematográficos.
+- Visualización de resultados: Los resultados de la comparación se presentan de manera clara y concisa, lo que permite una fácil comprensión de las diferencias y similitudes entre los actores.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Uso
 
-### `npm test`
+Para utilizar este proyecto, sigue estos pasos:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clona el repositorio en tu máquina local.
+2. Instala las dependencias necesarias según se indique en la documentación.
+3. Ejecuta el proyecto y espera a que se obtengan los datos de las películas y los actores.
+4. Explora los resultados obtenidos y analiza la comparación de los actores en los universos cinematográficos.
 
-### `npm run build`
+## Contribuciones
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+¡Las contribuciones son bienvenidas! Si deseas contribuir a este proyecto, sigue estos pasos:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Haz un fork (bifurcación) de este repositorio.
+2. Crea una rama (branch) con un nombre descriptivo para tu contribución.
+3. Realiza los cambios y mejoras en tu rama local.
+4. Envía un pull request (solicitud de extracción) explicando los cambios realizados.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Agradecimientos
 
-### `npm run eject`
+Este proyecto se basa en el trabajo y los datos proporcionados por IMDb, una valiosa fuente de información cinematográfica. Agradecemos a IMDb y su comunidad por su contribución al mundo del cine.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contacto
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Si tienes alguna pregunta, sugerencia o problema relacionado con este proyecto, no dudes en ponerte en contacto con el equipo de desarrollo en [correo electrónico de contacto].
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+¡Esperamos que este archivo README.md te resulte útil y te ayude a entender el propósito y las funcionalidades de tu proyecto MSU de comparación de actores en películas de universos cinematográficos!
