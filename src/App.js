@@ -18,7 +18,6 @@ function App() {
     <div className='over container mx-auto max-w-7xl px-10 xl:px-0'>
       <UniversosContain />
       <ActoresListContainer />
-
     </div>
   );
   
