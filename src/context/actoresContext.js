@@ -72,7 +72,7 @@ const ActoresProvider = ({ children }) => {
     }, []);
     
  
-  // arma la concurrencia por Peliculas
+  // arma la concurrencia por Peliculas para Actores
   const recuentoActores = {};
   
   datosRecopilados.forEach((dato) => {
@@ -92,8 +92,22 @@ const ActoresProvider = ({ children }) => {
     const actorId = actor[0];
     const datosActor =getDatosActorPorID(actorId);
     return datosActor
-})
-  
+}) 
+  // arma lista de concurrencia para directores
+  // const recuentroDirectores = movies.reduce((result, movie) => {
+  //   const director = movie.Director;
+  //   if (!result[director]) {
+  //     result[director] = {
+  //       cantidadPeliculas: 1,
+  //       movieIDs: [movie.movie_ID]
+  //     };
+  //   } else {
+  //     result[director].cantidadPeliculas++;
+  //     result[director].movieIDs.push(movie.movie_ID);
+  //   }
+  //   return result;
+  // }, {});
+   
   // funciones 
   function getFalopaFactor (cantPeliculas, cantUniversos, ranking) {
         const calcular  = (cantPeliculas * cantUniversos * ranking).toFixed(2)
@@ -104,6 +118,7 @@ const ActoresProvider = ({ children }) => {
         const concurrenciaUniversos = {};
         let ranking = 0;
         const peliculasActor = datosRecopilados.filter((dato) => dato.actor_ID === actorId );
+        
         // para obtener los universos
         peliculasActor.forEach((pelicula) => {
           const universo = pelicula.universo;
@@ -145,6 +160,8 @@ const ActoresProvider = ({ children }) => {
         return null;
       }
     };
+    
+    console.log(listaMostrar)
     
     return (
       <ActoresContext.Provider

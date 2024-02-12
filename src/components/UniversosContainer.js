@@ -37,7 +37,6 @@ const { datosRecopilados, universos, movies } = useContext(ActoresContext);
 
 
   const filtrarPeliculasPorUniverso = (universo) => {
-    //  setListaPeliculas([])  
      const listaPeliculas = movies.filter( pelicula => pelicula.universo === universo);
      setListaPeliculas(listaPeliculas)  
      console.log(listaPeliculas)
@@ -46,7 +45,7 @@ const { datosRecopilados, universos, movies } = useContext(ActoresContext);
 
   return (
     <div className='w-full flex-col border mb-4'>
-        <div className='w-full p-2 m-2 text-lg'>Universos </div>
+        <div className='w-full p-2 m-2 text-lg' >Universos </div>
         <div className='flex w-full justify-around p-2'>
         {Object.keys(resultadosPorUniverso).map(universo => {
             const uni = resultadosPorUniverso[universo];
@@ -63,21 +62,20 @@ const { datosRecopilados, universos, movies } = useContext(ActoresContext);
             );
           })}    
         </div>
-        <div className='w-full p-2'>
-          <div className='w-full flex justify-between transition ease-in-out delay-150 '> 
-            <div>Peliculas por Universos</div> 
-          </div> 
-          <div className='grid grid-cols-4'>
-           {listaPeliculas ? 
-            listaPeliculas.map( pelicula => {
-                  return(<MovieCard key={pelicula.movie_ID} movieId= {pelicula.movie_ID} />)
-              })
-              : ""
-            }
-
-              
+          {Array.isArray(listaPeliculas) && listaPeliculas.length > 0 ? (
+            <div className='w-full p-2'>
+              <div className='w-full flex justify-between'> 
+                <div onClick={()=> setListaPeliculas([])}>Peliculas por Universos</div> 
+              </div> 
+              <div className='grid grid-cols-4'>
+                {listaPeliculas.map(pelicula => (
+                  <MovieCard key={pelicula.movie_ID} movieId={pelicula.movie_ID} />
+                ))}
               </div>         
-        </div>
+            </div>
+          ) : null}
+          
+
     </div>
   )
 }

@@ -4,11 +4,11 @@ import './index.css';
 import { ActoresContext } from './context/actoresContext';
 import UniversosContain from './components/UniversosContainer';
 import ActoresListContainer from './components/ActoresListContainer';
-import ActoresMultiContainer from './components/ActoresMultiContainer';
+
 
 
 function App() {
-  const { datosRecopilados } = useContext(ActoresContext);
+  const { datosRecopilados, listaMostrar } = useContext(ActoresContext);
   
   if (!datosRecopilados) {
     return <div>Cargando datos...</div>;
@@ -17,7 +17,7 @@ function App() {
   return (
     <div className='over container mx-auto max-w-7xl px-10 xl:px-0'>
       <UniversosContain />
-      <ActoresListContainer />
+      <ActoresListContainer listaMostrar={listaMostrar}/>
     </div>
   );
   

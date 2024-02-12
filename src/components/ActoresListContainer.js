@@ -1,9 +1,9 @@
 import React, {useContext, useState} from 'react'
 import { ActoresContext} from '../context/actoresContext';
 
-export default function ActoresListContainer() {
+export default function ActoresListContainer({listaMostrar}) {
 
-  const {listaMostrar} = useContext(ActoresContext);
+
   const [expandedRows, setExpandedRows] = useState([]);
 
   // funcion para expander los rows 
@@ -15,8 +15,6 @@ export default function ActoresListContainer() {
     }
   };
 
-  // console.log(listaMostrar) 
-
   return (
     <div className='mb-3'>
     <div className='w-full p-2 m-2 text-lg'>Partición de Actores por Peliculas</div>
@@ -24,7 +22,7 @@ export default function ActoresListContainer() {
     <thead className="bg-gray-100 dark:bg-gray-700">
         <tr>
             <th scope="col" className="py-3 px-6 text-xs text-center font-medium tracking-wider  text-gray-700 uppercase dark:text-gray-400">
-                Actor
+                Nombre
             </th>
             <th scope="col" className="py-3 px-6 text-xs font-medium tracking-wider text-center text-gray-700 uppercase dark:text-gray-400">
                 Cant. de Peliculas 
@@ -56,7 +54,7 @@ export default function ActoresListContainer() {
             <td className="py-4 px-6 text-sm font-medium text-center text-gray-500 whitespace-nowrap dark:text-white">{(a.datos.ranking).toFixed(2)}  </td>
             <td className="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap dark:text-white">
               {expandedRows.includes(index) ? 
-                a.peliculasActor.map( p => (<div className='text-xs' key={p.movie_id}>{p.title} - {p.personaje}</div>)) : <span>Peliculas</span>
+                a.peliculasActor.map( p => (<div className='text-xs' key={p.movie_ID}>{p.title} - {p.actor_personaje}</div>)) : <span>Peliculas</span>
               }
             </td>      
             <td className="py-4 px-6 text-sm text-center font-medium text-gray-900 whitespace-nowrap dark:text-white">

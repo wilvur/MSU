@@ -15,7 +15,7 @@ export default function MovieCard(movieId) {
  
   return (
     <div className='flex p-1 m-1 border rounded-sm'>
-        <div className='w-[70px]'>
+        <div className='w-[120px]'>
                 <img  className="bg-cover w-full h-full" src={movieData.Poster} alt={movieData.title}></img>
          </div>
          <div className='mx-4'>
